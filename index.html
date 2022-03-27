@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
 </head>
+
 <body>
-    <script src="calculadora.js"></script>
-    
-<table class="calculadora">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="calculadora.js"></script>
+
+  <table class="calculadora">
     <tr class="valores">
-        <td><span id="resultado"></span></td>
+      <td><span id="resultado"></span></td>
     </tr>
 
-<tr class="altura">
-  <td><button id="siete">7</button></td>
-  <td><button id="ocho">8</button></td>
-  <td><button id="nueve">9</button></td>
-  <td><button id="division">/</button></td>
-</tr>
-<tr>
-  <td><button id="cuatro">4</button></td>
-  <td><button id="cinco">5</button></td>
-  <td><button id="seis">6</button></td>
-  <td><button id="multiplicacion">*</button></td>
-</tr>
-<tr>
-  <td><button id="uno">1</button></td>
-  <td><button id="dos">2</button></td>
-  <td><button id="tres">3</button></td>
-  <td><button id="resta">-</button></td>
-</tr>
-<tr>
-  <td><button id="igual">=</button></td>
-  <td><button id="borrar">B</button></td>
-  <td><button id="cero">0</button></td>
-  <td><button id="suma">+</button></td>
-</tr>
-</table>
+    <tr class="altura">
+      <td><button id="siete">7</button></td>
+      <td><button id="ocho">8</button></td>
+      <td><button id="nueve">9</button></td>
+      <td><button id="division">/</button></td>
+    </tr>
+    <tr>
+      <td><button id="cuatro">4</button></td>
+      <td><button id="cinco">5</button></td>
+      <td><button id="seis">6</button></td>
+      <td><button id="multiplicacion">*</button></td>
+    </tr>
+    <tr>
+      <td><button id="uno">1</button></td>
+      <td><button id="dos">2</button></td>
+      <td><button id="tres">3</button></td>
+      <td><button id="resta">-</button></td>
+    </tr>
+    <tr>
+      <td><button id="igual">=</button></td>
+      <td><button id="eliminar">B</button></td>
+      <td><button id="cero">0</button></td>
+      <td><button id="suma">+</button></td>
+    </tr>
+  </table>
 </body>
+
 </html>
