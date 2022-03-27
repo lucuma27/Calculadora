@@ -1,6 +1,7 @@
 window.onload = function(){ 
     var valor1;
     var valor2;
+
     var cuenta;
     var resultado = document.getElementById('resultado');
     var borrar = document.getElementById('borrar');
